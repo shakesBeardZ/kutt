@@ -11,11 +11,6 @@
     "lint": "./node_modules/.bin/eslint . --fix",
     "lint:nofix": "./node_modules/.bin/eslint ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:nofix"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheDevs-Network/kutt.git"

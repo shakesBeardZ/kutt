@@ -1,13 +1,13 @@
 module.exports = {
-  PORT: 3000,
+  PORT: 4000,
 
   /* The domain that this website is on */
-  DEFAULT_DOMAIN: 'kutt.it',
+  DEFAULT_DOMAIN: 'https://xamber.herokuapp.com',
 
   /* Neo4j database credential details */
-  DB_URI: 'bolt://localhost',
-  DB_USERNAME: '',
-  DB_PASSWORD: '',
+  DB_URI: 'bolt://hobby-fhllgoangmiagbkemgefddbl.dbs.graphenedb.com:24786',
+  DB_USERNAME: 'app114160613-gR4vul',
+  DB_PASSWORD: 'b.zYGRJPkOfLzh.qka7E6CEzDHw7gGx',
 
   /* The daily limit for each user */
   USER_LIMIT_PER_DAY: 50,
@@ -19,7 +19,7 @@ module.exports = {
     Invisible reCaptcha secret key
     Create one in https://www.google.com/recaptcha/intro/
   */
-  RECAPTCHA_SECRET_KEY: '',
+  RECAPTCHA_SECRET_KEY: '6Lf8lngUAAAAAIIbmAqskoWeB3f7lk4OgrH0dkaE',
 
   /* 
     Google Cloud API to prevent from users from submitting malware URLs.
@@ -36,4 +36,5 @@ module.exports = {
   MAIL_SECURE: false,
   MAIL_USER: '',
   MAIL_PASSWORD: '',
+
 };
