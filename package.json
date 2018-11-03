@@ -11,19 +11,11 @@
     "lint": "./node_modules/.bin/eslint . --fix",
     "lint:nofix": "./node_modules/.bin/eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheDevs-Network/kutt.git"
+  "engines": {
+    "node": ">=8.11.4",
+    "npm": ">=6.4.1"
   },
-  "keywords": [
-    "url-shortener"
-  ],
-  "author": "Pouria Ezzati <ezzati.upt@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheDevs-Network/kutt/issues"
-  },
-  "homepage": "https://github.com/TheDevs-Network/kutt#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
